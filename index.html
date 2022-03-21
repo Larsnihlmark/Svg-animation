@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg-animation</title>
+    
+    <style>
+ 
+        :root {
+            --dark-color:#635BFF;
+            --light-color: #43C4ED;
+        }
+
+        svg {
+            cursor: pointer;
+        }
+        #darkGroup {
+            fill: var(--dark-color);
+        }
+        #lightGroup {
+            fill:var(--light-color);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 120 100" fill="none">
+            <g id="triangles" clip-path="url(#clip0_1_2)">
+                <g id="darkGroup">
+                    <path id="dark1" opacity="0.7" d="M68 45.268C69.3333 46.0378 69.3333 47.9623 68 48.7321L33.5 68.6506C32.1667 69.4204 30.5 68.4582 30.5 66.9186L30.5 27.0814C30.5 25.5418 32.1667 24.5796 33.5 25.3494L68 45.268Z"/>
+                    <path id="dark2" opacity="0.7" d="M51 45.268C52.3333 46.0378 52.3333 47.9623 51 48.7321L16.5 68.6506C15.1667 69.4204 13.5 68.4582 13.5 66.9186L13.5 27.0814C13.5 25.5418 15.1667 24.5796 16.5 25.3494L51 45.268Z"/>
+                </g>
+
+                <g id="lightGroup">
+                    <path id="light1" opacity="0.7" d="M51 45.268C52.3333 46.0378 52.3333 47.9623 51 48.7321L16.5 68.6506C15.1667 69.4204 13.5 68.4582 13.5 66.9186L13.5 27.0814C13.5 25.5418 15.1667 24.5796 16.5 25.3494L51 45.268Z"/>
+                </g>
+            </g>
+
+            <defs>
+                <clipPath id="clip0_1_2">
+                    <rect width="120" height="100" fill="white"/>
+                </clipPath>
+            </defs>
+        </svg>
+    </div>
+    
+</body>
+</html>
