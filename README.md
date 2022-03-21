@@ -1,6 +1,6 @@
 # svg-animation
 
-- DEMO
+- 
 
 
 ### Figma
